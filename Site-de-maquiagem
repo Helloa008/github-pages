@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beleza em Foco</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fffafc;
+      color: #333;
+    }
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: white;
+    }
+    header p {
+      font-size: 18px;
+      color: #ffccd5;
+      margin-top: 10px;
+    }
+    nav {
+      background-color: #ffe4e1;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #cc3366;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    footer {
+      background-color: #ffb6c1;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #cc3366;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #b32d5b;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vinda, Helloá!</h1>
+    <p>Fico muito feliz que você esteja aqui! Vamos juntas realçar sua beleza com muita alegria e dicas incríveis.</p>
+  </header>
+
+  <nav>
+    <a href="#dicas">Dicas</a>
+    <a href="#tutoriais">Tutoriais</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section id="dicas">
+      <h2>Dicas de Maquiagem</h2>
+      <p>Aprenda a preparar a pele, escolher o tom certo de base e realçar sua beleza natural com técnicas simples.</p>
+      <img src="https://i.imgur.com/5sG1hNv.jpg" alt="Dicas de maquiagem">
+    </section>
+
+    <section id="tutoriais">
+      <h2>Tutoriais</h2>
+      <p>Passo a passo de maquiagens para o dia a dia, festas e ocasiões especiais. Fácil de seguir!</p>
+      <img src="https://i.imgur.com/E6N9pQV.jpg" alt="Tutorial de maquiagem">
+    </section>
+
+    <section id="produtos">
+      <h2>Produtos Recomendados</h2>
+      <p>Veja os melhores produtos do momento com bom custo-benefício e qualidade.</p>
+      <img src="https://i.imgur.com/0GRvgYY.jpg" alt="Produtos de maquiagem">
+    </section>
+
+    <section id="contato">
+      <h2>Fale com a Gente</h2>
+      <form>
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="mensagem" placeholder="Escreva sua mensagem aqui..." rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Beleza em Foco - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
